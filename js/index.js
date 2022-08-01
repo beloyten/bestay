@@ -831,7 +831,7 @@ function onLoad() {
   console.log("Co vao day");
   // animation.playSegments([[0,600],[300,847]], true);
   document.getElementById("looplottie").style.visibility = "hidden";
-  // gsapAnimation();
+  gsapAnimation();
   var earthRotate = document.getElementById("earth-rotate");
   var earthNoRotate = document.getElementById("earth-no-rotate");
   var ua = navigator.userAgent.toLowerCase();
